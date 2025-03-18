@@ -14,26 +14,26 @@ namespace BL.classes
         {
             return true;
         }
-        public bool AddMeating(Meating meating) 
-        { 
-            return true;
-        }
+        //public bool AddMeating(Meating meating) 
+        //{ 
+        //    return true;
+        //}
 
         //מחזירה את כל הפגישות של עובד מסוים שעוד לא התבצעו
-       public List<Meating> GetAllMeeting(string id)
-        {
-            List < Meating > meatings= getMeatings(id);
-            List<Meating> meatingReturn=new List<Meating> ();
-            for (int i = 0;i< meatings.Count; i++)
-            {
-                if (meatings[i].start < DateTime.Now)
-                {
-                    meatingReturn.Add(meatings[i]);
-                }
+       //public List<Meating> GetAllMeeting(string id)
+       // {
+       //     List < Meating > meatings= getMeatings(id);
+       //     List<Meating> meatingReturn=new List<Meating> ();
+       //     for (int i = 0;i< meatings.Count; i++)
+       //     {
+       //         if (meatings[i].start < DateTime.Now)
+       //         {
+       //             meatingReturn.Add(meatings[i]);
+       //         }
                
-            }
-            return meatingReturn;
-        }
+       //     }
+       //     return meatingReturn;
+       // }
 
     }
 }
