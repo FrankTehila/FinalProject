@@ -10,7 +10,7 @@ namespace Server.Controllers
     {
         // GET: api/<TeamLeader>
         [HttpGet]
-        // מחזירה את כל הישיבות צוות שיש לראש צוות/לעוב מסוים לפי ID
+        // מחזירה את כל הישיבות צוות שיש לראש צוות/לעובד מסוים לפי ID
         public IActionResult GetAllStaffMeetings(string id)
         {
             // פונקציה שמחזירה רשימה של פגישות
@@ -26,7 +26,6 @@ namespace Server.Controllers
         //הפונקציה מקבלת ת.ז.של עובד ובודקת אם הוא ראש צוות היא מוסיפה את הפגישה שלו ,אחרת מחזירה שגיאה
         public IActionResult AddNewStaffMeeting(string id)
         {
-
             bool b=true;//פונקציה שמוסיפה פגישה 
             if (b)
             {
@@ -46,5 +45,14 @@ namespace Server.Controllers
             
         }
 
+        [HttpPut] //פונקציה שמעדכנת את הפגישה שנקבעה
+        public IActionResult UpdateStaffMeeting(Meeting meeting)
+        {
+            if (meeting)
+            {
+                return Ok();
+            }
+            return Ok();
+        }
     }
 }
