@@ -11,7 +11,8 @@ namespace DAL.Api
         void AddMeeting(Meeting meeting);
         void DeleteMeeting(string meetingId);
         void UpdateMeeting(Meeting meeting);
-        Meeting GetMeetingById(string meetingId);
-        List<Meeting> GetAllMeetings();
+        Meeting GetTheNextMeeting();
+        public List<Meeting> GetAllFutureMeetings();
+        List<Meeting> GetAllPastMeetings();
     }
 }

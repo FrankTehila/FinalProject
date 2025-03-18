@@ -19,12 +19,17 @@ namespace DAL.Services
             throw new NotImplementedException();
         }
 
-        public List<Meeting> GetAllMeetings()
+        public List<Meeting> GetAllFutureMeetings()
         {
             throw new NotImplementedException();
         }
 
-        public Meeting GetMeetingById(string meetingId)
+        public List<Meeting> GetAllPastMeetings()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Meeting GetTheNextMeeting()
         {
             throw new NotImplementedException();
         }
