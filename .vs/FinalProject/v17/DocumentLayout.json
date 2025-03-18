@@ -1,13 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "H:\\finalProject\\FinalProject\\",
+  "WorkspaceRootPath": "D:\\Users\\User\\Documents\\\u05D9\u05DC\u05D3\u05D9\u05DD\\\u05EA\u05D4\u05D9\u05DC\u05D4\\\u05DE\u05E1\u05DC\u05D5\u05DC\\C#\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CA70687-1EBC-4800-9963-B0CBB01184DD}|BL\\BL.csproj|h:\\finalproject\\finalproject\\bl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6CADF10D-5BB9-4BE5-8393-3DF056742B54}|DAL\\DAL.csproj|d:\\users\\user\\documents\\\u05D9\u05DC\u05D3\u05D9\u05DD\\\u05EA\u05D4\u05D9\u05DC\u05D4\\\u05DE\u05E1\u05DC\u05D5\u05DC\\c#\\finalproject\\dal\\services\\meetingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CADF10D-5BB9-4BE5-8393-3DF056742B54}|DAL\\DAL.csproj|solutionrelative:dal\\services\\meetingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CADF10D-5BB9-4BE5-8393-3DF056742B54}|DAL\\DAL.csproj|d:\\users\\user\\documents\\\u05D9\u05DC\u05D3\u05D9\u05DD\\\u05EA\u05D4\u05D9\u05DC\u05D4\\\u05DE\u05E1\u05DC\u05D5\u05DC\\c#\\finalproject\\dal\\api\\imeetingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CADF10D-5BB9-4BE5-8393-3DF056742B54}|DAL\\DAL.csproj|solutionrelative:dal\\api\\imeetingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CADF10D-5BB9-4BE5-8393-3DF056742B54}|DAL\\DAL.csproj|d:\\users\\user\\documents\\\u05D9\u05DC\u05D3\u05D9\u05DD\\\u05EA\u05D4\u05D9\u05DC\u05D4\\\u05DE\u05E1\u05DC\u05D5\u05DC\\c#\\finalproject\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6CADF10D-5BB9-4BE5-8393-3DF056742B54}|DAL\\DAL.csproj|solutionrelative:dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CA70687-1EBC-4800-9963-B0CBB01184DD}|BL\\BL.csproj|d:\\users\\user\\documents\\\u05D9\u05DC\u05D3\u05D9\u05DD\\\u05EA\u05D4\u05D9\u05DC\u05D4\\\u05DE\u05E1\u05DC\u05D5\u05DC\\c#\\finalproject\\bl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CA70687-1EBC-4800-9963-B0CBB01184DD}|BL\\BL.csproj|solutionrelative:bl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CADF10D-5BB9-4BE5-8393-3DF056742B54}|DAL\\DAL.csproj|h:\\finalproject\\finalproject\\dal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6CADF10D-5BB9-4BE5-8393-3DF056742B54}|DAL\\DAL.csproj|d:\\users\\user\\documents\\\u05D9\u05DC\u05D3\u05D9\u05DD\\\u05EA\u05D4\u05D9\u05DC\u05D4\\\u05DE\u05E1\u05DC\u05D5\u05DC\\c#\\finalproject\\dal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CADF10D-5BB9-4BE5-8393-3DF056742B54}|DAL\\DAL.csproj|solutionrelative:dal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,34 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MeetingManager.cs",
+              "DocumentMoniker": "d:\\Users\\User\\Documents\\\u05D9\u05DC\u05D3\u05D9\u05DD\\\u05EA\u05D4\u05D9\u05DC\u05D4\\\u05DE\u05E1\u05DC\u05D5\u05DC\\C#\\FinalProject\\DAL\\Services\\MeetingManager.cs",
+              "RelativeDocumentMoniker": "DAL\\Services\\MeetingManager.cs",
+              "ToolTip": "d:\\Users\\User\\Documents\\\u05D9\u05DC\u05D3\u05D9\u05DD\\\u05EA\u05D4\u05D9\u05DC\u05D4\\\u05DE\u05E1\u05DC\u05D5\u05DC\\C#\\FinalProject\\DAL\\Services\\MeetingManager.cs",
+              "RelativeToolTip": "DAL\\Services\\MeetingManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T12:45:13.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IMeetingManager.cs",
+              "DocumentMoniker": "d:\\Users\\User\\Documents\\\u05D9\u05DC\u05D3\u05D9\u05DD\\\u05EA\u05D4\u05D9\u05DC\u05D4\\\u05DE\u05E1\u05DC\u05D5\u05DC\\C#\\FinalProject\\DAL\\Api\\IMeetingManager.cs",
+              "RelativeDocumentMoniker": "DAL\\Api\\IMeetingManager.cs",
+              "ToolTip": "d:\\Users\\User\\Documents\\\u05D9\u05DC\u05D3\u05D9\u05DD\\\u05EA\u05D4\u05D9\u05DC\u05D4\\\u05DE\u05E1\u05DC\u05D5\u05DC\\C#\\FinalProject\\DAL\\Api\\IMeetingManager.cs",
+              "RelativeToolTip": "DAL\\Api\\IMeetingManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T12:42:07.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DAL",
+              "DocumentMoniker": "d:\\Users\\User\\Documents\\\u05D9\u05DC\u05D3\u05D9\u05DD\\\u05EA\u05D4\u05D9\u05DC\u05D4\\\u05DE\u05E1\u05DC\u05D5\u05DC\\C#\\FinalProject\\DAL\\DAL.csproj",
+              "RelativeDocumentMoniker": "DAL\\DAL.csproj",
+              "ToolTip": "d:\\Users\\User\\Documents\\\u05D9\u05DC\u05D3\u05D9\u05DD\\\u05EA\u05D4\u05D9\u05DC\u05D4\\\u05DE\u05E1\u05DC\u05D5\u05DC\\C#\\FinalProject\\DAL\\DAL.csproj",
+              "RelativeToolTip": "DAL\\DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-18T12:39:46.348Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "H:\\finalProject\\FinalProject\\DAL\\Program.cs",
+              "DocumentMoniker": "D:\\Users\\User\\Documents\\\u05D9\u05DC\u05D3\u05D9\u05DD\\\u05EA\u05D4\u05D9\u05DC\u05D4\\\u05DE\u05E1\u05DC\u05D5\u05DC\\C#\\FinalProject\\DAL\\Program.cs",
               "RelativeDocumentMoniker": "DAL\\Program.cs",
-              "ToolTip": "H:\\finalProject\\FinalProject\\DAL\\Program.cs",
+              "ToolTip": "D:\\Users\\User\\Documents\\\u05D9\u05DC\u05D3\u05D9\u05DD\\\u05EA\u05D4\u05D9\u05DC\u05D4\\\u05DE\u05E1\u05DC\u05D5\u05DC\\C#\\FinalProject\\DAL\\Program.cs",
               "RelativeToolTip": "DAL\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T08:26:10.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T08:26:10.92Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "H:\\finalProject\\FinalProject\\BL\\Program.cs",
+              "DocumentMoniker": "D:\\Users\\User\\Documents\\\u05D9\u05DC\u05D3\u05D9\u05DD\\\u05EA\u05D4\u05D9\u05DC\u05D4\\\u05DE\u05E1\u05DC\u05D5\u05DC\\C#\\FinalProject\\BL\\Program.cs",
               "RelativeDocumentMoniker": "BL\\Program.cs",
-              "ToolTip": "H:\\finalProject\\FinalProject\\BL\\Program.cs",
+              "ToolTip": "D:\\Users\\User\\Documents\\\u05D9\u05DC\u05D3\u05D9\u05DD\\\u05EA\u05D4\u05D9\u05DC\u05D4\\\u05DE\u05E1\u05DC\u05D5\u05DC\\C#\\FinalProject\\BL\\Program.cs",
               "RelativeToolTip": "BL\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T08:25:05.432Z",
               "EditorCaption": ""
