@@ -6,9 +6,17 @@ namespace Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TeamLeader : ControllerBase
+    public class TeamLeaderController : ControllerBase
     {
-        // GET: api/<TeamLeader>
+        ITeamLeader teamLeader;
+
+        public TeamLeaderController(ITeamLeader teamLeader)
+        {
+
+            this.teamLeader = teamLeader;
+
+        }
+
         [HttpGet]
         // מחזירה את כל הישיבות צוות שיש לראש צוות/לעוב מסוים לפי ID
         public IActionResult GetAllStaffMeetings(string id)
