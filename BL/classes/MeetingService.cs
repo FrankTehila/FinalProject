@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BL.models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,26 +15,26 @@ namespace BL.classes
         {
             return true;
         }
-        //public bool AddMeating(Meating meating) 
-        //{ 
-        //    return true;
-        //}
+        public bool Addmeeting(Meeting meeting) 
+        { 
+            return true;
+        }
 
         //מחזירה את כל הפגישות של עובד מסוים שעוד לא התבצעו
-       //public List<Meating> GetAllMeeting(string id)
-       // {
-       //     List < Meating > meatings= getMeatings(id);
-       //     List<Meating> meatingReturn=new List<Meating> ();
-       //     for (int i = 0;i< meatings.Count; i++)
-       //     {
-       //         if (meatings[i].start < DateTime.Now)
-       //         {
-       //             meatingReturn.Add(meatings[i]);
-       //         }
+       public List<Meeting> GetAllMeeting(string id)
+        {
+            List <Meeting> meetings= getMeetings(id);
+            List<Meeting> meetingReturn=new List<Meeting> ();
+            for (int i = 0;i< meetings.Count; i++)
+            {
+                if (meetings[i].Date < DateTime.Now)
+                {
+                    meetingReturn.Add(meetings[i]);
+                }
                
-       //     }
-       //     return meatingReturn;
-       // }
+            }
+            return meetingReturn;
+        }
 
     }
 }

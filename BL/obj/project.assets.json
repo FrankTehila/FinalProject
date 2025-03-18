@@ -1608,6 +1608,16 @@
             "rid": "win"
           }
         }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
       }
     }
   },
@@ -4724,32 +4734,38 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "path": "../DAL/DAL.csproj",
+      "msbuildProject": "../DAL/DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "DAL >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\הוכברגר תמר\\.nuget\\packages\\": {},
+    "C:\\Users\\This User\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\finalProject\\FinalProject\\BL\\BL.csproj",
+      "projectUniqueName": "C:\\Users\\This User\\Desktop\\פרויקט סיום!!\\FinalProject\\BL\\BL.csproj",
       "projectName": "BL",
-      "projectPath": "H:\\finalProject\\FinalProject\\BL\\BL.csproj",
-      "packagesPath": "C:\\Users\\הוכברגר תמר\\.nuget\\packages\\",
-      "outputPath": "H:\\finalProject\\FinalProject\\BL\\obj\\",
+      "projectPath": "C:\\Users\\This User\\Desktop\\פרויקט סיום!!\\FinalProject\\BL\\BL.csproj",
+      "packagesPath": "C:\\Users\\This User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\This User\\Desktop\\פרויקט סיום!!\\FinalProject\\BL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\הוכברגר תמר\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\This User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4764,18 +4780,17 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\This User\\Desktop\\פרויקט סיום!!\\FinalProject\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\This User\\Desktop\\פרויקט סיום!!\\FinalProject\\DAL\\DAL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -4809,7 +4824,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
